@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogr landing page | Frontend Mentor Challenge</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="navigation">
+        <div class="container">
+            <div class="nav-flex">
+                <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                <nav class="nav">
+                    <div class="dropdown">
+                        <a class="dropbtn">Product <svg class="drop-icon-arr" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></a>
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-link">Overview</a>
+                            <a href="#" class="dropdown-link">Pricing</a>
+                            <a href="#" class="dropdown-link">Marketplace</a>
+                            <a href="#" class="dropdown-link">Features</a>
+                            <a href="#" class="dropdown-link">Integrations</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn">Company <svg class="drop-icon-arr" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></a>
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-link">About</a>
+                            <a href="#" class="dropdown-link">Team</a>
+                            <a href="#" class="dropdown-link">Blog</a>
+                            <a href="#" class="dropdown-link">Careers</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn">Connect <svg class="drop-icon-arr" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg></a>
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-link">Contact</a>
+                            <a href="#" class="dropdown-link">Newsletter</a>
+                            <a href="#" class="dropdown-link">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="navigation-btns navigation-btns--active">
+                        <a href="#" class="btn">Login</a>
+                        <a href="#" class="btn btn--solid btn--solidSpec">Sign Up</a>
+                    </div>
+                </nav>
+                <span class="menu-icon">
+                    <span class="menu-icon-line"></span>
+                    <span class="menu-icon-line"></span>
+                    <span class="menu-icon-line"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-content">
+            <div class="container">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">A modern publishing platform</span>
+                    <span class="heading-primary--sub">Grow your audience and build online brand</span>
+                </h1>
+                <a href="#" class="btn btn--solid u-margin-r-small">Start for Free</a>
+                <a href="#" class="btn btn--outline">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sec-overview">
+            <div class="container">
+                <h2 class="heading-secondary u-center-text u-margin-t-large u-margin-b-large">Designed for the future</h2>
+                <div class="flex-parent">
+                    <div class="sec-overview-text-side">
+                        <h3 class="heading-tertiary">Introducing an extensible editor</h3>
+                        <p class="paragraph u-margin-b-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sint eum id illo recusandae et adipisci cupiditate. Necessitatibus accusamus perferendis odio aspernatur neque autem nihil nostrum, atque fugit non reiciendis laborum! Enim molestiae dolores et, id quisquam deleniti, est at distinctio asperiores beatae culpa quas. Velit alias molestias sequi voluptatibus?</p>
+                        <h3 class="heading-tertiary">Robust content manangement</h3>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum tempore laudantium accusamus quisquam facilis amet velit saepe inventore, dolorum excepturi hic quas nobis nihil pariatur similique obcaecati autem ratione, voluptatibus explicabo officiis sunt natus molestias!</p>
+                    </div>
+                    <picture class="sec-overview-photo-side">
+                        <source srcset="img/illustration-editor-mobile.svg" media="(max-width: 37.5em)">
+                        <img class="sec-overview-photo-side-photo" src="img/illustration-editor-desktop.svg" alt="Editor Photo" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="sec-state">
+            <div class="container">
+                <div class="flex-parent">
+                    <div class="sec-state-photo-side"><img src="img/illustration-phones.svg" alt="Phones" class="phones-photo"></div>
+                    <div class="sec-state-text-side">
+                        <h2 class="heading-secondary u-margin-b-small heading-secondary--white">State of the Art Infrastructure</h2>
+                        <p class="paragraph paragraph--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod porro quaerat magnam sapiente, itaque obcaecati officia, id repellendus asperiores maiores eum ipsa rerum ducimus iste.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-features">
+            <div class="container">
+                <div class="flex-parent">
+                    <picture class="sec-features-photo-side">
+                        <source srcset="img/illustration-laptop-mobile.svg" media="(max-width: 37.5em)">
+                        <img class="sec-features-photo" src="img/illustration-laptop-desktop.svg" alt="Laptop Photo" />
+                    </picture>
+                    <div class="sec-features-text-side">
+                        <h3 class="heading-tertiary u-margin-b-medium">Free, open, simple</h3>
+                        <p class="paragraph u-margin-b-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur at minus aliquam nihil, consectetur molestiae quasi ipsa quia aperiam ratione quam. Natus corporis hic impedit unde, dolore deleniti tenetur. Amet, delectus. Corrupti enim veritatis ratione delectus! Consequuntur quaerat doloribus, ut amet labore alias tenetur voluptates dicta ratione laborum ducimus ea, laboriosam iure quis, voluptatibus illo fuga earum iusto in pariatur maiores ipsa recusandae eos? Consectetur tempora dolores perspiciatis optio ad aut maxime reprehenderit minima aliquid.</p>
+                        <h3 class="heading-tertiary u-margin-b-medium">Powerful tooling</h3>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum autem veniam corporis! Enim beatae tenetur repudiandae, reprehenderit nulla minima doloribus porro accusantium eum iusto iste. Dolores quam non earum asperiores modi eius, quos fugit deserunt eaque qui odio, eligendi atque id, aperiam debitis odit? Voluptatem ad sequi velit corporis!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <a href="index.html" class="footer-logo-link"><img class="footer-logo" src="img/logo.svg" alt="Logo" /></a>
+                <div class="footer-navigation">
+                    <h4 class="link-list-heading">Product</h4>
+                    <ul class="links-list">
+                        <li class="list-item"><a href="#" class="list-link">Overview</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Pricing</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Marketplace</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Features</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation">
+                    <h4 class="link-list-heading">Company</h4>
+                    <ul class="links-list">
+                        <li class="list-item"><a href="#" class="list-link">About</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Team</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Blog</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation">
+                    <h4 class="link-list-heading">Connect</h4>
+                    <ul class="links-list">
+                        <li class="list-item"><a href="#" class="list-link">Contact</a></li>
+                        <li class="list-item"><a href="#" class="list-link">Newsletter</a></li>
+                        <li class="list-item"><a href="#" class="list-link">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy;2021 <a href="https://github.com/yasertarek/" class="copyright-author" target="_blank">Yasser Tarek</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
