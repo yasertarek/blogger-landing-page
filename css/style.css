@@ -230,7 +230,6 @@ body{
 .menu-icon--open .menu-icon-line:nth-child(3){
     transform: rotate(-45deg);
 }
-/* .menu-icon-line{top : 1rem} */
 .menu-icon--open::after{
     transform: translateY(-50%) rotate(-90deg);
 }
@@ -258,7 +257,7 @@ body{
     transition: all 0.2s ease-in-out;
 }
 
-.dropdown--active .dropbtn:hover::after, 
+.dropbtn:hover::after, 
 .dropdown--active .dropbtn::after{
     width: 100%;
 }
